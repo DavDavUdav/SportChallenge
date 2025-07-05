@@ -32,7 +32,7 @@ var serviceProvider = new ServiceCollection()
             options.UseSqlite("Data Source=helloapp1.db");
             options.LogTo(_ => { });
         })
-        .AddLogging(_ => _.AddProvider(new FileLoggerProvider("log/log2.txt")))
+        .AddLogging(_ => _.AddProvider(new FileLoggerProvider("logs/log2.txt")))
         .AddSingleton<TelegramController>()
         .AddSingleton<UserStateMachineService>()
         .AddSingleton<NotificationService>()
