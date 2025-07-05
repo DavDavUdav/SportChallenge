@@ -37,5 +37,9 @@ public enum SportType
     /// <summary>
     /// Махи ногами
     /// </summary>
-    LegSwings
+    LegSwings,
+    /// <summary>
+    /// Подъем гантели на бицепс
+    /// </summary>
+    DumbbellsV1
 }

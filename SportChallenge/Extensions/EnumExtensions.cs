@@ -16,6 +16,7 @@ public static class EnumExtensions
             SportType.BurpeeV2 => "Бёрпи (easy)",
             SportType.Scissors => "Ножницы",
             SportType.LegSwings => "Махи ногами",
+            SportType.DumbbellsV1 => "Подъем гантели на бицепс",
 
             _ => throw new NotImplementedException(),
         };

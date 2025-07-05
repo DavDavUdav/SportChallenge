@@ -51,7 +51,8 @@ public partial class UserStateMachineService
             },
             new[]
             {
-                InlineKeyboardButton.WithCallbackData(SportType.PullUps.GetRussianSportType(), ParserButtons.SerializeMenuButton(SportType.PullUps))
+                InlineKeyboardButton.WithCallbackData(SportType.PullUps.GetRussianSportType(), ParserButtons.SerializeMenuButton(SportType.PullUps)),
+                InlineKeyboardButton.WithCallbackData(SportType.DumbbellsV1.GetRussianSportType(), ParserButtons.SerializeMenuButton(SportType.DumbbellsV1))
             }
         });
 
